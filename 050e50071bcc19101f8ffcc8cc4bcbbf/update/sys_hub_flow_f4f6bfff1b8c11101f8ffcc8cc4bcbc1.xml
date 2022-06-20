@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_spoke</internal_name>
+        <label_cache>[{"name":"3072a78c-1be6-4abf-bfdb-0f78306d5d56.calculated_date","label":"1 - Get Days Ago Date➛Calculated date","reference_display":"Calculated date","type":"glide_date","base_type":"glide_date","attributes":{"uiType":"glide_date","uiTypeLabel":"Date","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6502c2a3-e52d-4ce3-857b-1971bee99b0d"}},{"name":"3072a78c-1be6-4abf-bfdb-0f78306d5d56.__dont_treat_as_error__","label":"1 - Get Days Ago Date➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"2177a88d-71d4-4483-81ca-41e43d7af85f"}},{"name":"3072a78c-1be6-4abf-bfdb-0f78306d5d56.__action_status__","label":"1 - Get Days Ago Date➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD98bd24c3bc0059106ee42dc8f851d520","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"3991c3d7-2580-4991-8f9d-3afbd62b80b9"}},{"name":"9bcbfcc6-11cc-4f7b-a5a2-dece13503bc1.__action_status__","label":"1 - Get Property➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDb219ec8f10cc1910ad7685bb5155d73a","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"76073b94-2937-4827-bdfe-1158fe079d75"}},{"name":"9bcbfcc6-11cc-4f7b-a5a2-dece13503bc1.__dont_treat_as_error__","label":"1 - Get Property➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"331767d3-e1f7-4a55-b720-23ba28402754"}},{"name":"9bcbfcc6-11cc-4f7b-a5a2-dece13503bc1.property_value","label":"1 - Get Property➛Property value","reference_display":"Property value","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"fcbac55f-9897-4ba6-9d63-9f1437a18e3b"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Test Spoke</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 01:30:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f4f6bfff1b8c11101f8ffcc8cc4bcbc1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Test Spoke</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt Spoke" source="x_832172_needit_sp">050e50071bcc19101f8ffcc8cc4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">050e50071bcc19101f8ffcc8cc4bcbbf</sys_scope>
+        <sys_update_name>sys_hub_flow_f4f6bfff1b8c11101f8ffcc8cc4bcbc1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 02:46:06</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f4f6bfff1b8c11101f8ffcc8cc4bcbc1^sys_idNOT IN4be773731bcc11101f8ffcc8cc4bcbf7"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Test Spoke">f4f6bfff1b8c11101f8ffcc8cc4bcbc1</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 01:34:37</sys_created_on>
+        <sys_id>4be773731bcc11101f8ffcc8cc4bcbf7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 02:46:05</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4be773731bcc11101f8ffcc8cc4bcbf7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>4be773731bcc11101f8ffcc8cc4bcbf7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 01:34:37</sys_created_on>
+        <sys_id>c3e773731bcc11101f8ffcc8cc4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 01:34:37</sys_updated_on>
+        <value>1970-01-01 11:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=4be773731bcc11101f8ffcc8cc4bcbf7"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f4f6bfff1b8c11101f8ffcc8cc4bcbc1^sys_idNOT INf4f6bfff1b8c11101f8ffcc8cc4bcbc2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f4f6bfff1b8c11101f8ffcc8cc4bcbc1</id>
+        <name>Test Spoke</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 01:30:23</sys_created_on>
+        <sys_id>f4f6bfff1b8c11101f8ffcc8cc4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 01:30:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f4f6bfff1b8c11101f8ffcc8cc4bcbc2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f4f6bfff1b8c11101f8ffcc8cc4bcbc1"/>
+</record_update>
